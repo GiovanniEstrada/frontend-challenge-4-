@@ -37,7 +37,7 @@ export default function Versus({ score, myChoice, setScore }) {
         setWin("You Win");
         setScore(score + 1);
       } else if (bot === "scissors") {
-        setWin("You lose");
+        setWin("You Lose");
         setScore(score - 1);
       }
     } else if (myChoice === "scissors") {
