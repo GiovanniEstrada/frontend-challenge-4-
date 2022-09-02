@@ -1,0 +1,17 @@
+.container-modeA, .container-modeB {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    margin: 25px;
+}
+
+.container-game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    margin: 25px;
+}
